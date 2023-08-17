@@ -18,3 +18,10 @@
 [开源地址(gtitee)](https://gitee.com/xclhove/LiteLoaderPlugins-GiveClock)
 
 [开源地址(github)](https://github.com/xclhove/LiteLoaderPlugins-GiveClock)
+
+## 最新版下载链接
+
+[gitee](https://gitee.com/xclhove/LiteLoaderPlugins-GiveClock/releases/download/v1.0.0/GiveClock.js)
+
+[github](https://github.com/xclhove/LiteLoaderPlugins-GiveClock/releases/latest/download/GiveClock.js)
+
