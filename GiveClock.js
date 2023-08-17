@@ -75,6 +75,6 @@ function showPluginInfo(isShow) {
   }
   log('给钟插件已加载！');
   log('version:1.0.0');
-  log('插件开源地址(gitee)：');
-  log('插件开源地址(github)：');
+  log('插件开源地址(gitee)：https://gitee.com/xclhove/LiteLoaderPlugins-GiveClock');
+  log('插件开源地址(github)：https://github.com/xclhove/LiteLoaderPlugins-GiveClock');
 }
