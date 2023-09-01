@@ -7,7 +7,7 @@ function regesterPlugin() {
   ll.registerPlugin(
     "GiveClock",
     "进服检测背包自动给钟，指令获取钟，建议配合钟菜单使用。",
-    [1, 0, 1, Version.Release],
+    [1, 1, 0, Version.Release],
     {
       "author": "XCLHove",
       "github": "https://github.com/xclhove/LiteLoaderPlugins-GiveClock",
