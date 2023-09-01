@@ -38,9 +38,9 @@
 
 ## 开源地址
 
-[开源地址(gtitee)](https://gitee.com/xclhove/LiteLoaderPlugins-GiveClock)
+[开源地址(gtitee)](https://gitee.com/xclhove/LiteLoaderBDSPlugins-GiveClock)
 
-[开源地址(github)](https://github.com/xclhove/LiteLoaderPlugins-GiveClock)
+[开源地址(github)](https://github.com/xclhove/LiteLoaderBDSPlugins-GiveClock)
 
 ## 最新版下载链接
 
