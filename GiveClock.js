@@ -95,8 +95,15 @@ function joinPrompt(message) {
  * @param {Player} player 要发放钟的玩家
  */
 function giveClock(player) {
-  const clock = mc.newItem("minecraft:clock", 1);
-  let playerBackpack = player.getInventory();
+  let playerBackpack = player.getInventory()
+
+  //通过设置nbt使钟不会掉落
+  let clock = mc.newItem("minecraft:clock", 1)
+  let clockNbt = clock.getNbt()
+  clockNbt.setTag("tag", new NbtCompound({
+    "minecraft:item_lock": new NbtByte(2)
+  }))
+  clock.setNbt(clockNbt)
 
   //检查玩家背包空间是否充足
   if (!playerBackpack.hasRoomFor(clock)) {
@@ -108,6 +115,9 @@ function giveClock(player) {
   //检查玩家背包中是否有钟
   for (let index = 0; index < playerBackpack.size; index++) {
     let item = playerBackpack.getItem(index);
+    if (!item.type) {
+      continue
+    }
     if (item.match(clock)) {
       //背包中有钟则提示
       player.tell(`${Format.Italics}${Format.DarkGreen}背包中已有钟！`);
