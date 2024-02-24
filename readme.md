@@ -2,7 +2,9 @@
 
 ## 简介
 
-给钟插件，玩家进服自动检测背包是否有钟，没有钟则会给玩家一个钟，建议配合钟菜单相关的插件使用。
+给钟插件，玩家进服自动检测背包是否有钟，没有钟则会给玩家一个钟，建议配合钟菜单相关的插件[xmenu(gitee)](https://gitee.com/xclhove/LiteLoaderBDSPlugins-XMenu)|[xmenu(github)](https://github.com/xclhove/LiteLoaderBDSPlugins-XMenu)使用。
+
+从`v1.1.0`升级的需要删除旧配置（直接删除`plugins`文件夹下的`GiveClock`文件夹即可）！！！
 
 ## 安装
 
@@ -19,20 +21,18 @@
 
 ```json
 {
-  "config": {
     //获取钟的命令
     "getClockCommand": "getclock",
     //获取钟的命令别名，‘gc’与‘getclock’等效
     "getClockCommandAlias": "gc",
-    //是否要在使用钟后执行命令，0:否 1:是
-    "runCommandOnUseClock": 0,
+    //是否要在使用钟后执行命令，false:否 true:是
+    "runCommandOnUseClock": false,
     //使用钟后执行的命令
     "onUseClockRunCommand": "list",
-    //是否要在对方块使用钟后执行命令，0:否 1:是
-    "runCommandOnUseClockOn": 0,
+    //是否要在对方块使用钟后执行命令，false:否 true:是
+    "runCommandOnUseClockOn": false,
     //对方块使用钟后执行的命令
-    "onUseClockOnRunCommand": "menu"
-  }
+    "onUseClockOnRunCommand": "list"
 }
 ```
 
@@ -44,6 +44,6 @@
 
 ## 最新版下载链接
 
-[gitee](https://gitee.com/xclhove/LiteLoaderBDSPlugins-GiveClock/releases/download/v1.1.0/GiveClock.js)
+[gitee](https://gitee.com/xclhove/LiteLoaderBDSPlugins-GiveClock/releases/download/v1.3.0/GiveClock.js)
 
 [github](https://github.com/xclhove/LiteLoaderBDSPlugins-GiveClock/releases/latest/download/GiveClock.js)
